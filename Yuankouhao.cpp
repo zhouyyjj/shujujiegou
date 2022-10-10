@@ -2,7 +2,7 @@
 #include<malloc.h>
 #define MAXSIZE 100
 
-typedef int DataType;
+typedef char DataType;
 typedef struct{
 	DataType data[MAXSIZE];
 	int top;
